@@ -1,0 +1,11 @@
+# Environments
+venv/
+env/
+.env
+
+# Cache files
+__pycache__/
+*.pyc
+
+# Test files
+test_*.py
