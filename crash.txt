@@ -1,0 +1,5 @@
+Exception during exec:
+Traceback (most recent call last):
+  File "C:\Users\engin\Desktop\Aura AI Assistant\main.py", line 34, in main
+    sys.exit(ret)
+SystemExit: 0

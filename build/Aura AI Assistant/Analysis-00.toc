@@ -14,7 +14,9 @@
  {},
  0,
  [],
- [],
+ [('icon.ico',
+   'C:\\Users\\engin\\Desktop\\Aura AI Assistant\\icon.ico',
+   'DATA')],
  '3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit '
  '(AMD64)]',
  [('pyi_rth_inspect',
@@ -50,9 +52,6 @@
    'PYMODULE'),
   ('importlib',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\__init__.py',
-   'PYMODULE'),
-  ('importlib.machinery',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\machinery.py',
    'PYMODULE'),
   ('importlib._bootstrap_external',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\_bootstrap_external.py',
@@ -182,6 +181,9 @@
    'PYMODULE'),
   ('importlib._abc',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\_abc.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\machinery.py',
    'PYMODULE'),
   ('importlib.metadata._itertools',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_itertools.py',
@@ -1081,10 +1083,6 @@
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\__init__.py',
    'PYMODULE'),
-  ('setuptools._vendor.backports',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\__init__.py',
-   'PYMODULE'),
   ('setuptools._vendor.backports.tarfile.compat.py38',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\compat\\py38.py',
@@ -1092,6 +1090,10 @@
   ('setuptools._vendor.backports.tarfile.compat',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\__init__.py',
    'PYMODULE'),
   ('setuptools.glob',
    'C:\\Users\\engin\\Desktop\\Aura AI '
@@ -1350,14 +1352,14 @@
   ('__future__',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\__future__.py',
    'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tracemalloc.py',
+   'PYMODULE'),
   ('_py_abc',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_py_abc.py',
    'PYMODULE'),
   ('stringprep',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stringprep.py',
-   'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tracemalloc.py',
    'PYMODULE'),
   ('ctypes',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\__init__.py',
@@ -1370,6 +1372,12 @@
    'PYMODULE'),
   ('modules',
    'C:\\Users\\engin\\Desktop\\Aura AI Assistant\\modules\\__init__.py',
+   'PYMODULE'),
+  ('modules.history_manager',
+   'C:\\Users\\engin\\Desktop\\Aura AI Assistant\\modules\\history_manager.py',
+   'PYMODULE'),
+  ('modules.settings_manager',
+   'C:\\Users\\engin\\Desktop\\Aura AI Assistant\\modules\\settings_manager.py',
    'PYMODULE'),
   ('modules.api_manager',
    'C:\\Users\\engin\\Desktop\\Aura AI Assistant\\modules\\api_manager.py',
@@ -4508,6 +4516,136 @@
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\PyQt6\\__init__.py',
    'PYMODULE'),
+  ('markdown',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\__init__.py',
+   'PYMODULE'),
+  ('html.parser',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\html\\parser.py',
+   'PYMODULE'),
+  ('_markupbase',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_markupbase.py',
+   'PYMODULE'),
+  ('markdown.extensions.wikilinks',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\wikilinks.py',
+   'PYMODULE'),
+  ('markdown.extensions.toc',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\toc.py',
+   'PYMODULE'),
+  ('markdown.serializers',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\serializers.py',
+   'PYMODULE'),
+  ('markdown.treeprocessors',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\treeprocessors.py',
+   'PYMODULE'),
+  ('markdown.extensions.tables',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\tables.py',
+   'PYMODULE'),
+  ('markdown.blockparser',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\blockparser.py',
+   'PYMODULE'),
+  ('markdown.blockprocessors',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\blockprocessors.py',
+   'PYMODULE'),
+  ('markdown.extensions.smarty',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\smarty.py',
+   'PYMODULE'),
+  ('markdown.extensions.sane_lists',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\sane_lists.py',
+   'PYMODULE'),
+  ('markdown.extensions.nl2br',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\nl2br.py',
+   'PYMODULE'),
+  ('markdown.extensions.meta',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\meta.py',
+   'PYMODULE'),
+  ('markdown.preprocessors',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\preprocessors.py',
+   'PYMODULE'),
+  ('markdown.htmlparser',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\htmlparser.py',
+   'PYMODULE'),
+  ('markdown.extensions.md_in_html',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\md_in_html.py',
+   'PYMODULE'),
+  ('markdown.postprocessors',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\postprocessors.py',
+   'PYMODULE'),
+  ('markdown.extensions.legacy_em',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\legacy_em.py',
+   'PYMODULE'),
+  ('markdown.extensions.legacy_attrs',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\legacy_attrs.py',
+   'PYMODULE'),
+  ('markdown.extensions.footnotes',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\footnotes.py',
+   'PYMODULE'),
+  ('markdown.extensions.fenced_code',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\fenced_code.py',
+   'PYMODULE'),
+  ('markdown.extensions.extra',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\extra.py',
+   'PYMODULE'),
+  ('markdown.extensions.def_list',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\def_list.py',
+   'PYMODULE'),
+  ('markdown.extensions.codehilite',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\codehilite.py',
+   'PYMODULE'),
+  ('markdown.extensions.attr_list',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\attr_list.py',
+   'PYMODULE'),
+  ('markdown.extensions.admonition',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\admonition.py',
+   'PYMODULE'),
+  ('markdown.extensions.abbr',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\abbr.py',
+   'PYMODULE'),
+  ('markdown.extensions',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\__init__.py',
+   'PYMODULE'),
+  ('markdown.__meta__',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\__meta__.py',
+   'PYMODULE'),
+  ('markdown.core',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\core.py',
+   'PYMODULE'),
+  ('markdown.inlinepatterns',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\inlinepatterns.py',
+   'PYMODULE'),
+  ('markdown.util',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\util.py',
+   'PYMODULE'),
   ('keyboard',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\keyboard\\__init__.py',
@@ -4543,21 +4681,21 @@
  [('python312.dll',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\python312.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qpdf.dll',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qpdf.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
-   'BINARY'),
   ('PyQt6\\Qt6\\plugins\\imageformats\\qtiff.dll',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qtiff.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qicns.dll',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qsvg.dll',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qwbmp.dll',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qwbmp.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\plugins\\platforms\\qoffscreen.dll',
    'C:\\Users\\engin\\Desktop\\Aura AI '
@@ -4567,25 +4705,17 @@
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qwindows.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\generic\\qtuiotouchplugin.dll',
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qico.dll',
    'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qico.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\platforms\\qminimal.dll',
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
    'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qminimal.dll',
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qicns.dll',
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qpdf.dll',
    'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qicns.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qgif.dll',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qgif.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qsvg.dll',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qsvg.dll',
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qpdf.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\plugins\\imageformats\\qtga.dll',
    'C:\\Users\\engin\\Desktop\\Aura AI '
@@ -4595,13 +4725,21 @@
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qwebp.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qico.dll',
+  ('PyQt6\\Qt6\\plugins\\generic\\qtuiotouchplugin.dll',
    'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qico.dll',
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\generic\\qtuiotouchplugin.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qwbmp.dll',
+  ('PyQt6\\Qt6\\plugins\\platforms\\qminimal.dll',
    'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qwbmp.dll',
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qminimal.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qgif.dll',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qgif.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\bin\\opengl32sw.dll',
    'C:\\Users\\engin\\Desktop\\Aura AI '
@@ -4744,10 +4882,6 @@
   ('VCRUNTIME140.dll',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\VCRUNTIME140.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\bin\\Qt6Pdf.dll',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Pdf.dll',
-   'BINARY'),
   ('PyQt6\\Qt6\\bin\\Qt6Gui.dll',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Gui.dll',
@@ -4766,6 +4900,10 @@
   ('PyQt6\\Qt6\\bin\\MSVCP140.dll',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\MSVCP140.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Pdf.dll',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Pdf.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\bin\\Qt6Network.dll',
    'C:\\Users\\engin\\Desktop\\Aura AI '
@@ -4787,13 +4925,13 @@
   ('python3.dll',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\python3.dll',
    'BINARY'),
-  ('Pythonwin\\mfc140u.dll',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\Pythonwin\\mfc140u.dll',
-   'BINARY'),
   ('pywin32_system32\\pywintypes312.dll',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\pywin32_system32\\pywintypes312.dll',
+   'BINARY'),
+  ('Pythonwin\\mfc140u.dll',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\Pythonwin\\mfc140u.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\bin\\MSVCP140_2.dll',
    'C:\\Users\\engin\\Desktop\\Aura AI '
@@ -4813,17 +4951,12 @@
    'BINARY')],
  [],
  [],
- [('cryptography-46.0.7.dist-info\\licenses\\LICENSE',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\cryptography-46.0.7.dist-info\\licenses\\LICENSE',
+ [('icon.ico',
+   'C:\\Users\\engin\\Desktop\\Aura AI Assistant\\icon.ico',
    'DATA'),
   ('cryptography-46.0.7.dist-info\\WHEEL',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\cryptography-46.0.7.dist-info\\WHEEL',
-   'DATA'),
-  ('cryptography-46.0.7.dist-info\\INSTALLER',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\cryptography-46.0.7.dist-info\\INSTALLER',
    'DATA'),
   ('cryptography-46.0.7.dist-info\\RECORD',
    'C:\\Users\\engin\\Desktop\\Aura AI '
@@ -4837,37 +4970,45 @@
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\cryptography-46.0.7.dist-info\\licenses\\LICENSE.BSD',
    'DATA'),
+  ('cryptography-46.0.7.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\cryptography-46.0.7.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('cryptography-46.0.7.dist-info\\INSTALLER',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\cryptography-46.0.7.dist-info\\INSTALLER',
+   'DATA'),
   ('cryptography-46.0.7.dist-info\\METADATA',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\cryptography-46.0.7.dist-info\\METADATA',
-   'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
-   'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
    'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
+   'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
    'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+   'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
    'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+   'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
    'DATA'),
   ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
    'C:\\Users\\engin\\Desktop\\Aura AI '
@@ -4882,477 +5023,512 @@
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\certifi\\py.typed',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_nl.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_nl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_bg.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_bg.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_lg.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_lg.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_lg.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lg.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_gl.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_gl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_ka.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ka.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_lv.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_lv.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_en.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_en.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_uk.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_uk.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_fi.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fi.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_hr.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ja.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ja.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_hr.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_nl.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_nl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_en.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_en.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_fr.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_fr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_it.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_it.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ca.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ca.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ka.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ka.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ar.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ar.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_da.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_da.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_it.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_it.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ka.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ka.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_cs.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_cs.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_lv.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lv.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_ca.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ca.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_zh_TW.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_zh_TW.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_fr.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_pl.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_pl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_nn.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_nn.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_es.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_es.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_da.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_da.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ar.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ar.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_hu.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hu.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_hu.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_hu.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_he.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_he.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_ja.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ja.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_bg.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_bg.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_de.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_de.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_tr.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_tr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_uk.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_uk.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_nn.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_nn.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_fa.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fa.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_fi.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fi.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_de.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_de.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_lt.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lt.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ru.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ru.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ca.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ca.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_sk.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sk.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_es.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_es.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ko.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ko.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_fr.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_fa.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fa.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_hu.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hu.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_ru.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ru.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_nl.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_nl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_hr.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_hr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_pt_BR.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_pt_BR.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_sv.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sv.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_cs.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_cs.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ko.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ko.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_tr.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_tr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_uk.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_uk.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ja.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ja.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_gl.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_gl.qm',
-   'DATA'),
   ('PyQt6\\Qt6\\translations\\qtbase_it.qm',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_it.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_nn.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_nn.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_tr.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_tr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_pl.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_sk.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_sk.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_sl.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_sv.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_sv.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_ar.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ar.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_sv.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sv.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_sk.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sk.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_he.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_he.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_ko.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ko.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_bg.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_bg.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_gd.qm',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_gd.qm',
    'DATA'),
   ('PyQt6\\Qt6\\translations\\qtbase_gd.qm',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_gd.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
+  ('PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
    'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_es.qm',
+  ('PyQt6\\Qt6\\translations\\qtbase_nn.qm',
    'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_es.qm',
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_nn.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_en.qm',
+  ('PyQt6\\Qt6\\translations\\qt_bg.qm',
    'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_en.qm',
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_bg.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_sl.qm',
+  ('PyQt6\\Qt6\\translations\\qt_nn.qm',
    'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sl.qm',
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_nn.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_uk.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_uk.qm',
    'DATA'),
   ('PyQt6\\Qt6\\translations\\qt_cs.qm',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_cs.qm',
    'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_de.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_da.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ja.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ja.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_sk.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ar.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_fi.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fi.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ar.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ar.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_fi.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_he.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_he.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ko.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_tr.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_tr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ko.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ko.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_sk.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_cs.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_cs.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_de.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_de.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_zh_TW.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_zh_TW.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_nl.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_nl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_sl.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_da.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_da.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ja.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ja.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ko.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ko.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ru.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ru.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_uk.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_uk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ja.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_hu.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hu.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_pl.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ka.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ka.qm',
+   'DATA'),
   ('PyQt6\\Qt6\\translations\\qt_da.qm',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_da.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ru.qm',
+  ('PyQt6\\Qt6\\translations\\qt_fr.qm',
    'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ru.qm',
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_pt_BR.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_pt_BR.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_lg.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lg.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_he.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_he.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_fr.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_uk.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_uk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_lg.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_lg.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_sv.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sv.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_lv.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ca.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_hr.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_hr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_hr.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_en.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_en.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_nn.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_nn.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_es.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_es.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_sl.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_hr.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_sv.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sv.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_lt.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lt.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_nl.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_nl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_gd.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_gd.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_es.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_es.qm',
    'DATA'),
   ('PyQt6\\Qt6\\translations\\qt_help_pl.qm',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_pl.qm',
    'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_en.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_gl.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_gl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ar.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ar.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ka.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ka.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_fa.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fa.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_bg.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_bg.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_pl.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ka.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ka.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_en.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_en.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_sk.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_hu.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ru.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ru.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_lv.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lv.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_sv.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_sv.qm',
+   'DATA'),
   ('PyQt6\\Qt6\\translations\\qt_help_de.qm',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_de.qm',
    'DATA'),
-  ('pydantic-2.13.2.dist-info\\RECORD',
+  ('PyQt6\\Qt6\\translations\\qt_hu.qm',
    'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\pydantic-2.13.2.dist-info\\RECORD',
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_hu.qm',
    'DATA'),
-  ('pydantic-2.13.2.dist-info\\WHEEL',
+  ('PyQt6\\Qt6\\translations\\qtbase_bg.qm',
    'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\pydantic-2.13.2.dist-info\\WHEEL',
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_bg.qm',
    'DATA'),
-  ('pydantic-2.13.2.dist-info\\licenses\\LICENSE',
+  ('PyQt6\\Qt6\\translations\\qtbase_cs.qm',
    'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\pydantic-2.13.2.dist-info\\licenses\\LICENSE',
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_cs.qm',
    'DATA'),
-  ('pydantic-2.13.2.dist-info\\METADATA',
+  ('PyQt6\\Qt6\\translations\\qtbase_nl.qm',
    'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\pydantic-2.13.2.dist-info\\METADATA',
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_nl.qm',
    'DATA'),
-  ('websockets-16.0.dist-info\\RECORD',
+  ('PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
    'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\websockets-16.0.dist-info\\RECORD',
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_it.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_it.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_es.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_es.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ca.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ca.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_tr.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_it.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_it.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_fa.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fa.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_tr.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_tr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_gl.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_gl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ru.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ca.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ca.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_fr.qm',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_fr.qm',
+   'DATA'),
+  ('markdown-3.10.2.dist-info\\top_level.txt',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown-3.10.2.dist-info\\top_level.txt',
+   'DATA'),
+  ('markdown-3.10.2.dist-info\\RECORD',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown-3.10.2.dist-info\\RECORD',
+   'DATA'),
+  ('markdown-3.10.2.dist-info\\licenses\\LICENSE.md',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown-3.10.2.dist-info\\licenses\\LICENSE.md',
+   'DATA'),
+  ('markdown-3.10.2.dist-info\\WHEEL',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown-3.10.2.dist-info\\WHEEL',
+   'DATA'),
+  ('markdown-3.10.2.dist-info\\REQUESTED',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown-3.10.2.dist-info\\REQUESTED',
+   'DATA'),
+  ('markdown-3.10.2.dist-info\\INSTALLER',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown-3.10.2.dist-info\\INSTALLER',
+   'DATA'),
+  ('markdown-3.10.2.dist-info\\entry_points.txt',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown-3.10.2.dist-info\\entry_points.txt',
+   'DATA'),
+  ('markdown-3.10.2.dist-info\\METADATA',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown-3.10.2.dist-info\\METADATA',
    'DATA'),
   ('pydantic-2.13.2.dist-info\\INSTALLER',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\pydantic-2.13.2.dist-info\\INSTALLER',
    'DATA'),
-  ('websockets-16.0.dist-info\\top_level.txt',
+  ('pydantic-2.13.2.dist-info\\licenses\\LICENSE',
    'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\websockets-16.0.dist-info\\top_level.txt',
+   'Assistant\\venv\\Lib\\site-packages\\pydantic-2.13.2.dist-info\\licenses\\LICENSE',
    'DATA'),
   ('websockets-16.0.dist-info\\entry_points.txt',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\websockets-16.0.dist-info\\entry_points.txt',
    'DATA'),
-  ('websockets-16.0.dist-info\\WHEEL',
+  ('pydantic-2.13.2.dist-info\\RECORD',
    'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\websockets-16.0.dist-info\\WHEEL',
-   'DATA'),
-  ('websockets-16.0.dist-info\\METADATA',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\websockets-16.0.dist-info\\METADATA',
-   'DATA'),
-  ('websockets-16.0.dist-info\\licenses\\LICENSE',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\websockets-16.0.dist-info\\licenses\\LICENSE',
+   'Assistant\\venv\\Lib\\site-packages\\pydantic-2.13.2.dist-info\\RECORD',
    'DATA'),
   ('websockets-16.0.dist-info\\INSTALLER',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\websockets-16.0.dist-info\\INSTALLER',
    'DATA'),
+  ('websockets-16.0.dist-info\\METADATA',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\websockets-16.0.dist-info\\METADATA',
+   'DATA'),
+  ('websockets-16.0.dist-info\\top_level.txt',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\websockets-16.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('pydantic-2.13.2.dist-info\\METADATA',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\pydantic-2.13.2.dist-info\\METADATA',
+   'DATA'),
+  ('websockets-16.0.dist-info\\WHEEL',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\websockets-16.0.dist-info\\WHEEL',
+   'DATA'),
+  ('websockets-16.0.dist-info\\RECORD',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\websockets-16.0.dist-info\\RECORD',
+   'DATA'),
+  ('pydantic-2.13.2.dist-info\\WHEEL',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\pydantic-2.13.2.dist-info\\WHEEL',
+   'DATA'),
+  ('websockets-16.0.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\websockets-16.0.dist-info\\licenses\\LICENSE',
+   'DATA'),
   ('base_library.zip',
    'C:\\Users\\engin\\Desktop\\Aura AI Assistant\\build\\Aura AI '
    'Assistant\\base_library.zip',
    'DATA')],
- [('locale',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\locale.py',
-   'PYMODULE'),
-  ('heapq',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\heapq.py',
-   'PYMODULE'),
-  ('abc',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\abc.py',
-   'PYMODULE'),
-  ('_collections_abc',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_collections_abc.py',
-   'PYMODULE'),
-  ('reprlib',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\reprlib.py',
-   'PYMODULE'),
-  ('ntpath',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ntpath.py',
-   'PYMODULE'),
-  ('codecs',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\codecs.py',
+ [('io',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\io.py',
    'PYMODULE'),
   ('genericpath',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\genericpath.py',
    'PYMODULE'),
-  ('io',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\io.py',
-   'PYMODULE'),
   ('enum',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\enum.py',
    'PYMODULE'),
-  ('stat',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stat.py',
+  ('reprlib',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\reprlib.py',
    'PYMODULE'),
-  ('sre_compile',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sre_compile.py',
+  ('operator',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\operator.py',
+   'PYMODULE'),
+  ('warnings',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\warnings.py',
+   'PYMODULE'),
+  ('copyreg',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\copyreg.py',
+   'PYMODULE'),
+  ('heapq',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\heapq.py',
+   'PYMODULE'),
+  ('sre_constants',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sre_constants.py',
+   'PYMODULE'),
+  ('types',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\types.py',
+   'PYMODULE'),
+  ('linecache',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\linecache.py',
+   'PYMODULE'),
+  ('posixpath',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\posixpath.py',
+   'PYMODULE'),
+  ('keyword',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\keyword.py',
    'PYMODULE'),
   ('collections.abc',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\collections\\abc.py',
@@ -5360,23 +5536,56 @@
   ('collections',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\collections\\__init__.py',
    'PYMODULE'),
-  ('sre_constants',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sre_constants.py',
+  ('sre_parse',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sre_parse.py',
+   'PYMODULE'),
+  ('locale',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\locale.py',
+   'PYMODULE'),
+  ('ntpath',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ntpath.py',
    'PYMODULE'),
   ('_weakrefset',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_weakrefset.py',
    'PYMODULE'),
-  ('sre_parse',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sre_parse.py',
+  ('sre_compile',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sre_compile.py',
    'PYMODULE'),
-  ('operator',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\operator.py',
+  ('re._parser',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\re\\_parser.py',
+   'PYMODULE'),
+  ('re._constants',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\re\\_constants.py',
+   'PYMODULE'),
+  ('re._compiler',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\re\\_compiler.py',
+   'PYMODULE'),
+  ('re._casefix',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\re\\_casefix.py',
+   'PYMODULE'),
+  ('re',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\re\\__init__.py',
+   'PYMODULE'),
+  ('abc',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\abc.py',
    'PYMODULE'),
   ('functools',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\functools.py',
    'PYMODULE'),
-  ('keyword',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\keyword.py',
+  ('weakref',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\weakref.py',
+   'PYMODULE'),
+  ('_collections_abc',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_collections_abc.py',
+   'PYMODULE'),
+  ('stat',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stat.py',
+   'PYMODULE'),
+  ('traceback',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\traceback.py',
+   'PYMODULE'),
+  ('codecs',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\codecs.py',
    'PYMODULE'),
   ('encodings.zlib_codec',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\zlib_codec.py',
@@ -5743,42 +5952,6 @@
    'PYMODULE'),
   ('encodings',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\__init__.py',
-   'PYMODULE'),
-  ('posixpath',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\posixpath.py',
-   'PYMODULE'),
-  ('weakref',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\weakref.py',
-   'PYMODULE'),
-  ('copyreg',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\copyreg.py',
-   'PYMODULE'),
-  ('linecache',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\linecache.py',
-   'PYMODULE'),
-  ('traceback',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\traceback.py',
-   'PYMODULE'),
-  ('types',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\types.py',
-   'PYMODULE'),
-  ('re._parser',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\re\\_parser.py',
-   'PYMODULE'),
-  ('re._constants',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\re\\_constants.py',
-   'PYMODULE'),
-  ('re._compiler',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\re\\_compiler.py',
-   'PYMODULE'),
-  ('re._casefix',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\re\\_casefix.py',
-   'PYMODULE'),
-  ('re',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\re\\__init__.py',
-   'PYMODULE'),
-  ('warnings',
-   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\warnings.py',
    'PYMODULE'),
   ('os',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\os.py',

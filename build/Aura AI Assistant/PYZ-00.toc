@@ -328,6 +328,9 @@
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\_distutils_hack\\override.py',
    'PYMODULE'),
+  ('_markupbase',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_markupbase.py',
+   'PYMODULE'),
   ('_py_abc',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_py_abc.py',
    'PYMODULE'),
@@ -2116,6 +2119,9 @@
   ('html.entities',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\html\\entities.py',
    'PYMODULE'),
+  ('html.parser',
+   'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\html\\parser.py',
+   'PYMODULE'),
   ('http',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\__init__.py',
    'PYMODULE'),
@@ -2493,6 +2499,130 @@
   ('lzma',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\lzma.py',
    'PYMODULE'),
+  ('markdown',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\__init__.py',
+   'PYMODULE'),
+  ('markdown.__meta__',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\__meta__.py',
+   'PYMODULE'),
+  ('markdown.blockparser',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\blockparser.py',
+   'PYMODULE'),
+  ('markdown.blockprocessors',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\blockprocessors.py',
+   'PYMODULE'),
+  ('markdown.core',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\core.py',
+   'PYMODULE'),
+  ('markdown.extensions',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\__init__.py',
+   'PYMODULE'),
+  ('markdown.extensions.abbr',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\abbr.py',
+   'PYMODULE'),
+  ('markdown.extensions.admonition',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\admonition.py',
+   'PYMODULE'),
+  ('markdown.extensions.attr_list',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\attr_list.py',
+   'PYMODULE'),
+  ('markdown.extensions.codehilite',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\codehilite.py',
+   'PYMODULE'),
+  ('markdown.extensions.def_list',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\def_list.py',
+   'PYMODULE'),
+  ('markdown.extensions.extra',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\extra.py',
+   'PYMODULE'),
+  ('markdown.extensions.fenced_code',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\fenced_code.py',
+   'PYMODULE'),
+  ('markdown.extensions.footnotes',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\footnotes.py',
+   'PYMODULE'),
+  ('markdown.extensions.legacy_attrs',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\legacy_attrs.py',
+   'PYMODULE'),
+  ('markdown.extensions.legacy_em',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\legacy_em.py',
+   'PYMODULE'),
+  ('markdown.extensions.md_in_html',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\md_in_html.py',
+   'PYMODULE'),
+  ('markdown.extensions.meta',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\meta.py',
+   'PYMODULE'),
+  ('markdown.extensions.nl2br',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\nl2br.py',
+   'PYMODULE'),
+  ('markdown.extensions.sane_lists',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\sane_lists.py',
+   'PYMODULE'),
+  ('markdown.extensions.smarty',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\smarty.py',
+   'PYMODULE'),
+  ('markdown.extensions.tables',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\tables.py',
+   'PYMODULE'),
+  ('markdown.extensions.toc',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\toc.py',
+   'PYMODULE'),
+  ('markdown.extensions.wikilinks',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\extensions\\wikilinks.py',
+   'PYMODULE'),
+  ('markdown.htmlparser',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\htmlparser.py',
+   'PYMODULE'),
+  ('markdown.inlinepatterns',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\inlinepatterns.py',
+   'PYMODULE'),
+  ('markdown.postprocessors',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\postprocessors.py',
+   'PYMODULE'),
+  ('markdown.preprocessors',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\preprocessors.py',
+   'PYMODULE'),
+  ('markdown.serializers',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\serializers.py',
+   'PYMODULE'),
+  ('markdown.treeprocessors',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\treeprocessors.py',
+   'PYMODULE'),
+  ('markdown.util',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\markdown\\util.py',
+   'PYMODULE'),
   ('mimetypes',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\mimetypes.py',
    'PYMODULE'),
@@ -2505,8 +2635,14 @@
   ('modules.cattura',
    'C:\\Users\\engin\\Desktop\\Aura AI Assistant\\modules\\cattura.py',
    'PYMODULE'),
+  ('modules.history_manager',
+   'C:\\Users\\engin\\Desktop\\Aura AI Assistant\\modules\\history_manager.py',
+   'PYMODULE'),
   ('modules.interfaccia',
    'C:\\Users\\engin\\Desktop\\Aura AI Assistant\\modules\\interfaccia.py',
+   'PYMODULE'),
+  ('modules.settings_manager',
+   'C:\\Users\\engin\\Desktop\\Aura AI Assistant\\modules\\settings_manager.py',
    'PYMODULE'),
   ('multiprocessing',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\__init__.py',

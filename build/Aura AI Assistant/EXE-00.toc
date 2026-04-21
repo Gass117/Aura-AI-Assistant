@@ -91,7 +91,7 @@
  [],
  False,
  False,
- 1776683216,
+ 1776773159,
  [('runw.exe',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',

@@ -16,10 +16,11 @@ class ApiManager:
     def check_api_key(self):
         return self.client is not None
 
-    def send_message(self, window_titles, user_prompt, images=None):
+    def send_message(self, window_titles, user_prompt, images=None, model_name='gemini-2.5-flash'):
         """
         window_titles: list of strings
         images: list of PIL.Image
+        model_name: string (e.g. 'gemini-2.5-flash')
         """
         if not self.client:
             return "Errore: API Key mancante. Controlla il file .env e riavvia l'app."
@@ -41,7 +42,7 @@ class ApiManager:
             contents.append(user_prompt)
                 
             response = self.client.models.generate_content(
-                model='gemini-2.5-flash',
+                model=model_name,
                 contents=contents,
                 config=types.GenerateContentConfig(
                     system_instruction=system_instruction,
