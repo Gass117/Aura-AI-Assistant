@@ -4,8 +4,8 @@ import markdown
 import os
 from PyQt6.QtWidgets import (QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, 
                              QComboBox, QSlider, QTextEdit, QLineEdit, QPushButton, 
-                             QLabel, QCheckBox, QFrame, QDialog, QTreeWidget, QTreeWidgetItem, QSpinBox, QSizePolicy)
-from PyQt6.QtCore import Qt, pyqtSignal, QThread, QPoint
+                             QLabel, QCheckBox, QFrame, QDialog, QTreeWidget, QTreeWidgetItem, QSpinBox, QSizePolicy, QMessageBox, QInputDialog)
+from PyQt6.QtCore import Qt, pyqtSignal, QThread, QPoint, QPropertyAnimation, QEasingCurve, QParallelAnimationGroup
 from PyQt6.QtGui import QImage, QPixmap, QIcon, QFont, QColor
 
 from modules.cattura import WindowCaptureThread, get_active_windows
@@ -23,6 +23,7 @@ def get_resource_path(relative_path):
 
 class ApiWorker(QThread):
     result_ready = pyqtSignal(str)
+    chunk_ready = pyqtSignal(str)
     
     def __init__(self, api_manager, window_titles, user_prompt, images, model_name):
         super().__init__()
@@ -34,12 +35,62 @@ class ApiWorker(QThread):
         
     def run(self):
         res = self.api_manager.send_message(self.window_titles, self.user_prompt, self.images, self.model_name)
-        self.result_ready.emit(res)
+        if isinstance(res, str):
+            self.result_ready.emit(res)
+        else:
+            full_text = ""
+            for chunk in res:
+                if chunk.text:
+                    full_text += chunk.text
+                    self.chunk_ready.emit(chunk.text)
+            self.result_ready.emit(full_text)
+
+class ResizeGrip(QWidget):
+    def __init__(self, parent, edge):
+        super().__init__(parent)
+        self.parent_window = parent
+        self.edge = edge
+        self.setStyleSheet("background-color: rgba(0, 0, 0, 1);")
+        if edge in ["top", "bottom"]: self.setCursor(Qt.CursorShape.SizeVerCursor)
+        elif edge in ["left", "right"]: self.setCursor(Qt.CursorShape.SizeHorCursor)
+        elif edge in ["topleft", "bottomright"]: self.setCursor(Qt.CursorShape.SizeFDiagCursor)
+        elif edge in ["topright", "bottomleft"]: self.setCursor(Qt.CursorShape.SizeBDiagCursor)
+        self.start_pos = None
+
+    def mousePressEvent(self, event):
+        if event.button() == Qt.MouseButton.LeftButton:
+            self.start_pos = event.globalPosition().toPoint()
+            self.start_geometry = self.parent_window.geometry()
+
+    def mouseMoveEvent(self, event):
+        if self.start_pos is not None:
+            delta = event.globalPosition().toPoint() - self.start_pos
+            rect = self.start_geometry
+            new_x, new_y, new_w, new_h = rect.x(), rect.y(), rect.width(), rect.height()
+            min_w, min_h = 400, 500
+            
+            if "left" in self.edge:
+                new_w = max(min_w, rect.width() - delta.x())
+                if new_w > min_w: new_x = rect.x() + delta.x()
+            elif "right" in self.edge:
+                new_w = max(min_w, rect.width() + delta.x())
+                
+            if "top" in self.edge:
+                new_h = max(min_h, rect.height() - delta.y())
+                if new_h > min_h: new_y = rect.y() + delta.y()
+            elif "bottom" in self.edge:
+                new_h = max(min_h, rect.height() + delta.y())
+                
+            self.parent_window.setGeometry(new_x, new_y, new_w, new_h)
+
+    def mouseReleaseEvent(self, event):
+        self.start_pos = None
 
 
 class SettingsDialog(QDialog):
-    def __init__(self, parent=None):
+    def __init__(self, api_manager, parent=None):
         super().__init__(parent)
+        self.api_manager = api_manager
         self.setWindowTitle("Impostazioni Aura")
         self.setFixedSize(320, 300)
         self.settings = load_settings()
@@ -157,13 +208,30 @@ class AuraMainWindow(QMainWindow):
         self.init_threads()
         self.setup_hotkey()
         self.load_history_on_startup()
+        self.create_resize_grips()
+        self.update_auth_button()
         
-        # Inizializza variabili per il ridimensionamento
-        self.resizing_edge = None
-        self.start_geometry = None
-        self.start_pos = None
-        self.setMouseTracking(True)
-        
+    def create_resize_grips(self):
+        self.grips = []
+        for edge in ["top", "bottom", "left", "right", "topleft", "topright", "bottomleft", "bottomright"]:
+            grip = ResizeGrip(self, edge)
+            self.grips.append(grip)
+            
+    def resizeEvent(self, event):
+        super().resizeEvent(event)
+        w, h = self.width(), self.height()
+        t = 10 # thickness
+        for grip in self.grips:
+            if grip.edge == "top": grip.setGeometry(t, 0, w-2*t, t)
+            elif grip.edge == "bottom": grip.setGeometry(t, h-t, w-2*t, t)
+            elif grip.edge == "left": grip.setGeometry(0, t, t, h-2*t)
+            elif grip.edge == "right": grip.setGeometry(w-t, t, t, h-2*t)
+            elif grip.edge == "topleft": grip.setGeometry(0, 0, t, t)
+            elif grip.edge == "topright": grip.setGeometry(w-t, 0, t, t)
+            elif grip.edge == "bottomleft": grip.setGeometry(0, h-t, t, t)
+            elif grip.edge == "bottomright": grip.setGeometry(w-t, h-t, t, t)
+            grip.raise_()
+
     def init_ui(self):
         self.setWindowFlags(Qt.WindowType.WindowStaysOnTopHint | Qt.WindowType.FramelessWindowHint)
         self.setAttribute(Qt.WidgetAttribute.WA_TranslucentBackground)
@@ -205,6 +273,12 @@ class AuraMainWindow(QMainWindow):
         ])
         top_controls_layout.addWidget(QLabel("Motore:"))
         top_controls_layout.addWidget(self.engine_combo)
+        
+        self.auth_btn = QPushButton("🔑 Inserisci Chiave API")
+        self.auth_btn.setFixedWidth(140)
+        self.auth_btn.clicked.connect(self.toggle_login)
+        top_controls_layout.addWidget(self.auth_btn)
+        
         top_controls_layout.addStretch()
         
         self.dual_mode_switch = QCheckBox("Modalità Doppia Finestra")
@@ -328,79 +402,6 @@ class AuraMainWindow(QMainWindow):
 
         self.refresh_windows_list()
 
-    def mousePressEvent(self, event):
-        if event.button() == Qt.MouseButton.LeftButton:
-            pos = event.position().toPoint()
-            margin = 10
-            w, h = self.width(), self.height()
-            
-            edge = ""
-            if pos.y() < margin: edge += "top"
-            elif pos.y() > h - margin: edge += "bottom"
-            
-            if pos.x() < margin: edge += "left"
-            elif pos.x() > w - margin: edge += "right"
-            
-            if edge:
-                self.resizing_edge = edge
-                self.start_pos = event.globalPosition().toPoint()
-                self.start_geometry = self.geometry()
-            else:
-                self.resizing_edge = None
-        super().mousePressEvent(event)
-
-    def mouseReleaseEvent(self, event):
-        self.resizing_edge = None
-        super().mouseReleaseEvent(event)
-
-    def mouseMoveEvent(self, event):
-        pos = event.position().toPoint()
-        margin = 10
-        w, h = self.width(), self.height()
-        
-        # Change cursor on hover
-        edge = ""
-        if pos.y() < margin: edge += "top"
-        elif pos.y() > h - margin: edge += "bottom"
-        
-        if pos.x() < margin: edge += "left"
-        elif pos.x() > w - margin: edge += "right"
-        
-        if edge in ["topleft", "bottomright"]:
-            self.setCursor(Qt.CursorShape.SizeFDiagCursor)
-        elif edge in ["topright", "bottomleft"]:
-            self.setCursor(Qt.CursorShape.SizeBDiagCursor)
-        elif edge in ["left", "right"]:
-            self.setCursor(Qt.CursorShape.SizeHorCursor)
-        elif edge in ["top", "bottom"]:
-            self.setCursor(Qt.CursorShape.SizeVerCursor)
-        else:
-            self.setCursor(Qt.CursorShape.ArrowCursor)
-
-        # Perform resizing
-        if event.buttons() == Qt.MouseButton.LeftButton and hasattr(self, 'resizing_edge') and self.resizing_edge:
-            delta = event.globalPosition().toPoint() - self.start_pos
-            rect = self.start_geometry
-            
-            new_x, new_y, new_w, new_h = rect.x(), rect.y(), rect.width(), rect.height()
-            min_w, min_h = 400, 500 # Minimum size
-            
-            if "left" in self.resizing_edge:
-                new_w = max(min_w, rect.width() - delta.x())
-                if new_w > min_w: new_x = rect.x() + delta.x()
-            elif "right" in self.resizing_edge:
-                new_w = max(min_w, rect.width() + delta.x())
-                
-            if "top" in self.resizing_edge:
-                new_h = max(min_h, rect.height() - delta.y())
-                if new_h > min_h: new_y = rect.y() + delta.y()
-            elif "bottom" in self.resizing_edge:
-                new_h = max(min_h, rect.height() + delta.y())
-                
-            self.setGeometry(new_x, new_y, new_w, new_h)
-            
-        super().mouseMoveEvent(event)
-
     def apply_settings(self):
         settings = load_settings()
         font_family = settings.get("font_family", "Segoe UI")
@@ -485,7 +486,7 @@ class AuraMainWindow(QMainWindow):
         self.setStyleSheet(css)
 
     def open_settings(self):
-        dlg = SettingsDialog(self)
+        dlg = SettingsDialog(self.api_manager, self)
         if dlg.exec():
             self.apply_settings()
 
@@ -595,9 +596,10 @@ class AuraMainWindow(QMainWindow):
         self.chat_input.setEnabled(False)
         self.send_btn.setEnabled(False)
         
-        self.append_chat_html("<i id='loader' style='color: #888;'>Aura sta pensando...</i>")
-        
         self.current_prompt = prompt
+        self.current_response_text = ""
+        self.chat_history_snapshot = self.chat_display.toHtml()
+        self.append_chat_html("<i id='loader' style='color: #888;'>Aura sta pensando...</i>")
         
         model_map = {
             "Gemini 3 Flash Preview": "gemini-3-flash-preview",
@@ -609,19 +611,29 @@ class AuraMainWindow(QMainWindow):
         
         self.api_worker = ApiWorker(self.api_manager, titles, prompt, images, selected_model)
         self.api_worker.result_ready.connect(self.on_api_response)
+        self.api_worker.chunk_ready.connect(self.on_chunk_received)
         self.api_worker.start()
         
+    def on_chunk_received(self, chunk):
+        self.current_response_text += chunk
+        html_response = markdown.markdown(self.current_response_text)
+        new_html = self.chat_history_snapshot + f"<div style='margin-bottom: 10px;'><b style='color: #4CAF50;'>Aura:</b><br>{html_response}</div>"
+        
+        v_bar = self.chat_display.verticalScrollBar()
+        was_at_bottom = v_bar.value() >= v_bar.maximum() - 10
+        
+        self.chat_display.setHtml(new_html)
+        
+        if was_at_bottom:
+            v_bar.setValue(v_bar.maximum())
+        
     def on_api_response(self, response):
-        current_html = self.chat_display.toHtml()
-        if "Aura sta pensando..." in current_html:
-            cursor = self.chat_display.textCursor()
-            cursor.movePosition(cursor.MoveOperation.End)
-            cursor.select(cursor.SelectionType.BlockUnderCursor)
-            cursor.removeSelectedText()
-            cursor.deletePreviousChar()
-            
-        html_response = markdown.markdown(response)
-        self.append_chat_html(f"<b style='color: #4CAF50;'>Aura:</b><br>{html_response}")
+        if "Errore nell'API:" in response or "**Avviso Aura:**" in response:
+            self.chat_display.setHtml(self.chat_history_snapshot)
+            self.append_chat_html(f"<b style='color: #4CAF50;'>Aura:</b><br>{markdown.markdown(response)}")
+            html_response = markdown.markdown(response)
+        else:
+            html_response = markdown.markdown(self.current_response_text)
         
         win_title = self.window_selector_1.currentText()
         if self.is_dual_mode:
@@ -680,6 +692,28 @@ class AuraMainWindow(QMainWindow):
             self.activateWindow()
         else:
             self.hide()
+
+    def update_auth_button(self):
+        if self.api_manager.check_api_key():
+            self.auth_btn.setText("🔓 Rimuovi Chiave")
+            self.auth_btn.setStyleSheet("background-color: #D32F2F; color: white; font-weight: bold; padding: 5px; border-radius: 4px;")
+        else:
+            self.auth_btn.setText("🔑 Inserisci Chiave")
+            self.auth_btn.setStyleSheet("background-color: #4CAF50; color: white; font-weight: bold; padding: 5px; border-radius: 4px;")
+
+    def toggle_login(self):
+        if self.api_manager.check_api_key():
+            self.api_manager.logout()
+            QMessageBox.information(self, "Logout", "Chiave API rimossa con successo.")
+        else:
+            api_key, ok = QInputDialog.getText(self, 'Chiave API Google Gemini', 'Inserisci la tua API Key di Google AI Studio:\n(Verrà salvata in modo sicuro nel sistema)')
+            if ok and api_key.strip():
+                self.api_manager.authenticate(new_key=api_key.strip())
+                if self.api_manager.check_api_key():
+                    QMessageBox.information(self, "Fatto", "Chiave API validata e salvata con successo!")
+                else:
+                    QMessageBox.warning(self, "Errore", "Impossibile inizializzare il client con questa chiave API.")
+        self.update_auth_button()
 
     def closeEvent(self, event):
         self.capture_thread.stop()

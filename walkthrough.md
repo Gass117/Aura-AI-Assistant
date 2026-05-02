@@ -1,19 +1,16 @@
-# Aggiornamento Fase 5: Finestra Dinamica e Nuova Cronologia 🚀
+# Aggiornamento: Autenticazione Sicura e Ridimensionamento 🚀
 
-Aura AI Assistant è ora molto più flessibile e nativo nell'ambiente Windows!
+Aura AI Assistant è ora equipaggiato con un login nativo tramite Google Cloud, abbandonando del tutto l'uso di chiavi API fisse, e il ridimensionamento della finestra è finalmente perfetto!
 
-## 📐 Finestra Nativa Dinamica 
-- **Ridimensionamento a 360 Gradi**: Abbiamo rimosso il "grip" fisso in basso a destra. Ora puoi trascinare liberamente **qualsiasi lato o angolo** dell'applicazione per allargarla o restringerla, esattamente come faresti con Esplora Risorse o Google Chrome.
-- **Anteprime "Responsive"**: Le foto/catture delle finestre non sono più bloccate a una dimensione fissa. Se ingrandisci l'applicazione di Aura, anche le anteprime a schermo si ingrandiranno proporzionalmente per mostrarti i dettagli al meglio!
+## 🔒 Autenticazione OAuth2 (Google Login)
+- **Login Diretto nel Browser**: Alla prima apertura, l'assistente ti chiederà di effettuare il login aprendo automaticamente il browser. Potrai selezionare il tuo account Google e autorizzare in totale sicurezza l'uso di Gemini.
+- **Sicurezza Avanzata con Keyring**: Una volta completato il login, le credenziali vengono salvate in maniera crittografata e protetta dal sistema operativo di Windows (nel Gestore Credenziali). L'app le ricorderà in automatico, ma potrai gestirle facilmente.
+- **Tasto "Logout Google"**: Abbiamo inserito un bottone dedicato in rosso (nelle **Impostazioni ⚙**) che ti permette di disconnettere immediatamente l'account attualmente collegato e passare ad un altro alla successiva apertura.
 
-## 📅 Cronologia per Date
-- **Organizzazione Temporale**: La barra laterale della cronologia ha raggiunto il suo stato definitivo. Ora le conversazioni sono suddivise prima di tutto per **Data** (es. *21/04/2026*), e all'interno della data troverai i nomi delle finestre in cui stavi operando, con tanto di **ora precisa** sulla singola richiesta (es. *12:30*).
+## 🧠 Downgrade Intelligente al Modello Flash
+- Se provi ad utilizzare il motore **Gemini 1.5 Pro** o **2.5 Pro** con un account che non ne possiede i permessi, l'applicazione intercetterà in automatico l'errore (evitando che l'app si blocchi) e ti informerà direttamente in Chat che è stato effettuato un **downgrade protettivo** per permetterti di continuare a lavorare con la versione Flash senza interruzioni!
 
-## 🎨 Design Tasti e Icone
-- **Trio di Comandi Centrali**: Abbiamo riorganizzato i comandi principali per la massima pulizia. Sotto i selettori troverai tre tasti allineati al centro, con le parole intere per evitare fraintendimenti:
-  - `⚙ Impostazioni`
-  - `🔃 Aggiorna finestre` (con nuova icona)
-  - `💬 Cronologia`
-- **Icona di Sistema Ripristinata**: Il "bug" dell'icona sulla barra del titolo e sulla taskbar è stato risolto alla radice. Ora l'eseguibile "incorpora" l'icona dentro di sé, garantendo che sia sempre visibile in basso a destra su Windows!
+## 📐 Ridimensionamento "Invisible Grips"
+- Abbiamo implementato 8 `Widget` trasparenti, disposti in maniera millimetrica sui 4 bordi laterali e sui **4 angoli** dell'interfaccia. Adesso puoi posizionarti su uno qualsiasi degli angoli, e potrai ingrandire o restringere la finestra sia in larghezza che in altezza simultaneamente!
 
-*(L'applicazione è stata nuovamente compilata e il tuo `.exe` nella cartella `dist` è già aggiornato con tutte queste novità!)*
+*(Il file è stato ricompilato e testato. Assicurati di aprire la versione appena aggiornata nella cartella `dist`!)*

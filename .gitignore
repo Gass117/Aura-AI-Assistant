@@ -9,3 +9,6 @@ __pycache__/
 
 # Test files
 test_*.py
+
+# Credentials
+client_secret.json

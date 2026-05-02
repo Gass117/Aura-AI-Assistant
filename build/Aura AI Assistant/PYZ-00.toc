@@ -2449,6 +2449,23 @@
   ('ipaddress',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ipaddress.py',
    'PYMODULE'),
+  ('jaraco', '-', 'PYMODULE'),
+  ('jaraco.classes',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\jaraco\\classes\\__init__.py',
+   'PYMODULE'),
+  ('jaraco.classes.properties',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\jaraco\\classes\\properties.py',
+   'PYMODULE'),
+  ('jaraco.context',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\jaraco\\context\\__init__.py',
+   'PYMODULE'),
+  ('jaraco.functools',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\jaraco\\functools\\__init__.py',
+   'PYMODULE'),
   ('json',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py',
    'PYMODULE'),
@@ -2492,6 +2509,86 @@
   ('keyboard._winkeyboard',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\keyboard\\_winkeyboard.py',
+   'PYMODULE'),
+  ('keyring',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\keyring\\__init__.py',
+   'PYMODULE'),
+  ('keyring.backend',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\keyring\\backend.py',
+   'PYMODULE'),
+  ('keyring.backends',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\keyring\\backends\\__init__.py',
+   'PYMODULE'),
+  ('keyring.backends.SecretService',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\keyring\\backends\\SecretService.py',
+   'PYMODULE'),
+  ('keyring.backends.Windows',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\keyring\\backends\\Windows.py',
+   'PYMODULE'),
+  ('keyring.backends.chainer',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\keyring\\backends\\chainer.py',
+   'PYMODULE'),
+  ('keyring.backends.fail',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\keyring\\backends\\fail.py',
+   'PYMODULE'),
+  ('keyring.backends.kwallet',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\keyring\\backends\\kwallet.py',
+   'PYMODULE'),
+  ('keyring.backends.libsecret',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\keyring\\backends\\libsecret.py',
+   'PYMODULE'),
+  ('keyring.backends.macOS',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\keyring\\backends\\macOS\\__init__.py',
+   'PYMODULE'),
+  ('keyring.backends.macOS.api',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\keyring\\backends\\macOS\\api.py',
+   'PYMODULE'),
+  ('keyring.backends.null',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\keyring\\backends\\null.py',
+   'PYMODULE'),
+  ('keyring.compat',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\keyring\\compat\\__init__.py',
+   'PYMODULE'),
+  ('keyring.compat.properties',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\keyring\\compat\\properties.py',
+   'PYMODULE'),
+  ('keyring.compat.py312',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\keyring\\compat\\py312.py',
+   'PYMODULE'),
+  ('keyring.core',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\keyring\\core.py',
+   'PYMODULE'),
+  ('keyring.credentials',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\keyring\\credentials.py',
+   'PYMODULE'),
+  ('keyring.errors',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\keyring\\errors.py',
+   'PYMODULE'),
+  ('keyring.util',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\keyring\\util\\__init__.py',
+   'PYMODULE'),
+  ('keyring.util.platform_',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\keyring\\util\\platform_.py',
    'PYMODULE'),
   ('logging',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\logging\\__init__.py',
@@ -2643,6 +2740,18 @@
    'PYMODULE'),
   ('modules.settings_manager',
    'C:\\Users\\engin\\Desktop\\Aura AI Assistant\\modules\\settings_manager.py',
+   'PYMODULE'),
+  ('more_itertools',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\more_itertools\\__init__.py',
+   'PYMODULE'),
+  ('more_itertools.more',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\more_itertools\\more.py',
+   'PYMODULE'),
+  ('more_itertools.recipes',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\more_itertools\\recipes.py',
    'PYMODULE'),
   ('multiprocessing',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\__init__.py',
@@ -3380,6 +3489,11 @@
   ('pydoc_data.topics',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pydoc_data\\topics.py',
    'PYMODULE'),
+  ('pywin32_system32', '-', 'PYMODULE'),
+  ('pywintypes',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32\\lib\\pywintypes.py',
+   'PYMODULE'),
   ('queue',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\queue.py',
    'PYMODULE'),
@@ -3721,29 +3835,9 @@
    'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\compat\\py39.py',
    'PYMODULE'),
   ('setuptools._vendor.jaraco', '-', 'PYMODULE'),
-  ('setuptools._vendor.jaraco.context',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\context\\__init__.py',
-   'PYMODULE'),
-  ('setuptools._vendor.jaraco.functools',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\functools\\__init__.py',
-   'PYMODULE'),
   ('setuptools._vendor.jaraco.text',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\__init__.py',
-   'PYMODULE'),
-  ('setuptools._vendor.more_itertools',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\__init__.py',
-   'PYMODULE'),
-  ('setuptools._vendor.more_itertools.more',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\more.py',
-   'PYMODULE'),
-  ('setuptools._vendor.more_itertools.recipes',
-   'C:\\Users\\engin\\Desktop\\Aura AI '
-   'Assistant\\venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\recipes.py',
    'PYMODULE'),
   ('setuptools._vendor.packaging',
    'C:\\Users\\engin\\Desktop\\Aura AI '
@@ -4556,6 +4650,114 @@
   ('win32con',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\win32\\lib\\win32con.py',
+   'PYMODULE'),
+  ('win32ctypes',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\__init__.py',
+   'PYMODULE'),
+  ('win32ctypes.core',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\core\\__init__.py',
+   'PYMODULE'),
+  ('win32ctypes.core._winerrors',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\core\\_winerrors.py',
+   'PYMODULE'),
+  ('win32ctypes.core.cffi',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\core\\cffi\\__init__.py',
+   'PYMODULE'),
+  ('win32ctypes.core.cffi._authentication',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\core\\cffi\\_authentication.py',
+   'PYMODULE'),
+  ('win32ctypes.core.cffi._common',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\core\\cffi\\_common.py',
+   'PYMODULE'),
+  ('win32ctypes.core.cffi._dll',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\core\\cffi\\_dll.py',
+   'PYMODULE'),
+  ('win32ctypes.core.cffi._nl_support',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\core\\cffi\\_nl_support.py',
+   'PYMODULE'),
+  ('win32ctypes.core.cffi._resource',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\core\\cffi\\_resource.py',
+   'PYMODULE'),
+  ('win32ctypes.core.cffi._system_information',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\core\\cffi\\_system_information.py',
+   'PYMODULE'),
+  ('win32ctypes.core.cffi._time',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\core\\cffi\\_time.py',
+   'PYMODULE'),
+  ('win32ctypes.core.cffi._util',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\core\\cffi\\_util.py',
+   'PYMODULE'),
+  ('win32ctypes.core.compat',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\core\\compat.py',
+   'PYMODULE'),
+  ('win32ctypes.core.ctypes',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\core\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('win32ctypes.core.ctypes._authentication',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\core\\ctypes\\_authentication.py',
+   'PYMODULE'),
+  ('win32ctypes.core.ctypes._common',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\core\\ctypes\\_common.py',
+   'PYMODULE'),
+  ('win32ctypes.core.ctypes._dll',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\core\\ctypes\\_dll.py',
+   'PYMODULE'),
+  ('win32ctypes.core.ctypes._nl_support',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\core\\ctypes\\_nl_support.py',
+   'PYMODULE'),
+  ('win32ctypes.core.ctypes._resource',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\core\\ctypes\\_resource.py',
+   'PYMODULE'),
+  ('win32ctypes.core.ctypes._system_information',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\core\\ctypes\\_system_information.py',
+   'PYMODULE'),
+  ('win32ctypes.core.ctypes._time',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\core\\ctypes\\_time.py',
+   'PYMODULE'),
+  ('win32ctypes.core.ctypes._util',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\core\\ctypes\\_util.py',
+   'PYMODULE'),
+  ('win32ctypes.pywin32',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\pywin32\\__init__.py',
+   'PYMODULE'),
+  ('win32ctypes.pywin32.pywintypes',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\pywin32\\pywintypes.py',
+   'PYMODULE'),
+  ('win32ctypes.pywin32.win32api',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\pywin32\\win32api.py',
+   'PYMODULE'),
+  ('win32ctypes.pywin32.win32cred',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\pywin32\\win32cred.py',
+   'PYMODULE'),
+  ('win32ctypes.version',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\win32ctypes\\version.py',
    'PYMODULE'),
   ('xml',
    'C:\\Users\\engin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\__init__.py',

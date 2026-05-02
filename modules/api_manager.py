@@ -1,29 +1,55 @@
 import os
+import sys
+import keyring
 from google import genai
 from google.genai import types
-from dotenv import load_dotenv
 
-load_dotenv()
+def get_resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
+
+SERVICE_ID = "AuraAIAssistant"
+TOKEN_KEY = "GeminiAPIKey"
 
 class ApiManager:
     def __init__(self):
-        self.api_key = os.getenv("GEMINI_API_KEY")
+        self.client = None
+        self.api_key = None
+        self.authenticate()
+
+    def authenticate(self, new_key=None):
+        if new_key:
+            self.api_key = new_key
+            keyring.set_password(SERVICE_ID, TOKEN_KEY, new_key)
+        else:
+            self.api_key = keyring.get_password(SERVICE_ID, TOKEN_KEY)
+            
         if self.api_key:
-            self.client = genai.Client(api_key=self.api_key)
+            try:
+                self.client = genai.Client(api_key=self.api_key)
+            except Exception as e:
+                print(f"Errore inizializzazione client: {e}")
+                self.client = None
         else:
             self.client = None
+            
+    def logout(self):
+        try:
+            keyring.delete_password(SERVICE_ID, TOKEN_KEY)
+        except keyring.errors.PasswordDeleteError:
+            pass
+        self.api_key = None
+        self.client = None
 
     def check_api_key(self):
         return self.client is not None
 
     def send_message(self, window_titles, user_prompt, images=None, model_name='gemini-2.5-flash'):
-        """
-        window_titles: list of strings
-        images: list of PIL.Image
-        model_name: string (e.g. 'gemini-2.5-flash')
-        """
         if not self.client:
-            return "Errore: API Key mancante. Controlla il file .env e riavvia l'app."
+            return "Errore: Autenticazione Google fallita o annullata. Accedi tramite impostazioni per continuare."
             
         if not images:
             images = []
@@ -35,19 +61,20 @@ class ApiManager:
             
         try:
             contents = []
-            # Aggiunge prima le immagini come contesto
             for img in images:
                 contents.append(img)
-            # Poi il prompt di testo
             contents.append(user_prompt)
                 
-            response = self.client.models.generate_content(
+            response_stream = self.client.models.generate_content_stream(
                 model=model_name,
                 contents=contents,
                 config=types.GenerateContentConfig(
                     system_instruction=system_instruction,
                 )
             )
-            return response.text
+            return response_stream
         except Exception as e:
-            return f"Errore nell'API: {str(e)}"
+            error_str = str(e)
+            if "403" in error_str and "pro" in model_name.lower():
+                return f"**Avviso Aura:** L'account Google collegato non ha accesso al modello Pro ({model_name}). Il software scalerà automaticamente a Flash alla prossima richiesta se selezioni un modello accessibile. \n\n*Dettaglio errore:* {error_str}"
+            return f"Errore nell'API: {error_str}"

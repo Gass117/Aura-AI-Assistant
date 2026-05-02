@@ -81,6 +81,10 @@
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
    'PYSOURCE'),
+  ('pyi_rth_pywintypes',
+   'C:\\Users\\engin\\Desktop\\Aura AI '
+   'Assistant\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks\\pyi_rth_pywintypes.py',
+   'PYSOURCE'),
   ('pyi_rth_pyqt6',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt6.py',
@@ -91,7 +95,7 @@
  [],
  False,
  False,
- 1776773159,
+ 1777730655,
  [('runw.exe',
    'C:\\Users\\engin\\Desktop\\Aura AI '
    'Assistant\\venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
